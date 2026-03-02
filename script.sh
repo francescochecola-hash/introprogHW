@@ -43,7 +43,7 @@ cd ~/programming-hw/hw1
 # if wget does not work for you, manually download from the below URL and place into `~/programming-hw/hw1` as `movies.dat`
 # first let me check whether you have wget installed and install it otherwise for you:
 # don't touch
-command -v wget || { [[ "$OSTYPE" == "darwin"* ]] && brew install wget || sudo apt-get install -y wget; }
+# command -v wget || { [[ "$OSTYPE" == "darwin"* ]] && brew install wget || sudo apt-get install -y wget; }
 echo ""
 # don't touch
 if [ ! -f  movies.dat ]; then
