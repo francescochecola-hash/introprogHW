@@ -64,7 +64,7 @@ fi
 head -n 4 movies.dat
 
 # 5. look at first 4 rows of downloaded data in `movies.dat` redirect to a file called `first4.txt`
-head -n 4 movies.dat > first4.txt.
+head -n 4 movies.dat > first4.txt
 
 # don't touch
 if [ ! -f  first4.txt ]; then
